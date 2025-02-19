@@ -60,7 +60,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'guessing_game_backend.urls'
 
-CORS_ALLOWED_ORIGINS =['http://localhost:5500', 'http://127.0.0.1:5500', 'http://localhost:3000', 'https://guessing-game-backend-kwxw.onrender.com']
+CORS_ALLOWED_ORIGINS =['http://localhost:5500', 'http://127.0.0.1:5500', 'http://localhost:3000', 'https://demoguessinggame.netlify.app']
 
 TEMPLATES = [
     {
