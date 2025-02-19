@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-0)#j3sua8v#9(z%4s)e32llq5-1x%(0jul8baqtm)z940281d=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -60,7 +60,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'guessing_game_backend.urls'
 
-CORS_ALLOWED_ORIGINS =['http://localhost:5500', 'http://127.0.0.1:5500', 'http://localhost:3000', 'https://demoguessinggame.netlify.app']
+CORS_ALLOWED_ORIGINS =['http://localhost:5500', 'http://127.0.0.1:5500', 'http://localhost:3000', 'https://guessing-game-backend-kwxw.onrender.com']
 
 TEMPLATES = [
     {
